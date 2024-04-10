@@ -23,26 +23,13 @@ import torch
 def pick_nodes_random(train_mask, num, seed=0):
 
     np.random.seed(seed)
-    # 计算 train_mask 中 True 值的索引
-    true_indices = torch.nonzero(train_mask).squeeze()  # 获取所有为 True 的索引
-    
-    # 计算要抽取的数量（10%）
+    true_indices = torch.nonzero(train_mask).squeeze() 
     num_samples = num
-
-    # 使用随机采样来选择要抽取的索引
     if num_samples > 0:
-        # 从 true_indices 中随机选择要抽取的索引
         sampled_indices = np.random.choice(true_indices.cpu().numpy(), size=num_samples, replace=False)
-        
-        # 创建一个新的 mask 来表示抽取的位置
         extracted_mask = torch.zeros_like(train_mask, dtype=torch.bool)
         extracted_mask[sampled_indices] = True
    
-        
-        # 输出抽取的位置
-        # print("抽取的位置：", extracted_mask)
-    else:
-        print("没有足够的 True 值来抽取样本。")
 
     return extracted_mask
 
