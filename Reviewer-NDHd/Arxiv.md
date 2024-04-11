@@ -16,4 +16,4 @@
 | APPNP | 0.7562 ± 0.0028 |
 | --- | --- |
 | GraphGPT  | 0.7511 (borrowed from paper) |
-| InstructGL | 0.7570 ± 0.0012 (borrowed from paper) |
+| InstructGLM | 0.7570 ± 0.0012 (borrowed from paper) |
