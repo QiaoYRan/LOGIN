@@ -1,2 +1,0 @@
-Refs:
-<br />[1] Graphgpt: Graph instruction tuning for large language models.<br />[2] Harnessing explanations: Llm-to-lm interpreter for enhanced text-attributed graph representation learning.<br />[3] Simple synthetic data reduces sycophancy in large language models.<br />[4] System 2 attention (is something you might need too).<br />[5] GNNGuard: Defending Graph Neural Networks against Adversarial Attacks
