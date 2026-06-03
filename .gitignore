@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.emb
+*.npy
+*.pt
+*.pth
+.ipynb_checkpoints/
+.DS_Store
+data/dataset/
+data/prompts/
+data/prt_lm/
+data/prt_lm_1/
+data/gpt_preds/
