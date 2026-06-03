@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Training outputs
+output/
+*.pt
+*.out
+*.log
+
+# Large external data (use symlink; see data/README.md)
+data/TAPE/
+dataset/
+gpt_preds/
+llm_emb/
+prt_lm/
+*.emb
+*.npy
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.key

@@ -1,0 +1,15 @@
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+torchdata==0.7.1
+torch_geometric
+transformers==4.41.2
+accelerate
+sentencepiece
+yacs
+pandas
+scikit-learn
+tqdm
+pytz
+ray
+pydantic
