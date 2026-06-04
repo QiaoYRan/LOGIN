@@ -52,4 +52,12 @@ LOGIN/
 
 ## Citation
 
-If you use this code, please cite the LOGIN paper (WSDM 2025).
+```bibtex
+@inproceedings{qiao2025login,
+  title={Login: A large language model consulted graph neural network training framework},
+  author={Qiao, Yiran and Ao, Xiang and Liu, Yang and Xu, Jiarong and Sun, Xiaoqian and He, Qing},
+  booktitle={Proceedings of the Eighteenth ACM International Conference on Web Search and Data Mining},
+  pages={232--241},
+  year={2025}
+}
+```
